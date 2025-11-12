@@ -1,0 +1,362 @@
+img{
+  margin: 0px;
+}
+
+p{
+  font-family: roboto, arial;
+  margin: 0px;
+}
+.gr{
+  width: 200px;
+  border-radius: 20px;
+  border-color: red ;
+ }
+
+ .gr2{
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
+ }
+
+ .gr3{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 200px;
+ }
+
+ .box{
+  border-radius: 10px;
+  padding: 5px 50px 5px;
+  text-align: center;
+}
+
+.box2{
+  border: none;
+  border-radius: 25px;
+  padding: 5px 50px 5px;
+  box-shadow: 0px 0px 4px black ;
+ }
+
+.mail{
+  color: grey;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 5px 0px 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.mailbox{
+  border-style: solid;
+  width:295px ;
+  border-radius: 3px;
+  border-width: 1px;
+  border-color: black;
+  height: 20px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.warning{
+  color: grey;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 19px 0px 19px;
+}
+
+.agree{
+  padding: 8px 100px 10px ;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  background-color: rgb(106, 106, 254);
+  font-weight: normal;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 0px 0px 5px blue;
+}
+
+.aot{
+  width: 70px;
+  border-radius: 70px;
+  object-fit: contain;
+  object-position: center;
+  border: none;
+  vertical-align: middle;
+}
+
+.status{
+  font-family: Arial, Helvetica, sans-serif;
+  color: grey;
+  font-size: 16px;
+  width: 300px;
+  border: none;
+  vertical-align: middle;
+}
+
+.tweet{
+  background-color: rgb(29, 155, 240);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding-top: 9px;
+  padding-bottom: 8px;
+  padding-right: 16px;
+  padding-left: 16px;
+  cursor:pointer;
+  font-size: 15px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.txtbox,
+.txtbox2
+{
+  display: block;
+  margin-bottom: 10px;
+}
+
+.csteam{
+  display:inline-block;
+  width: 200px;
+  vertical-align: middle;
+}
+.y, .n{
+  display:inline-block;
+  vertical-align: middle;
+}
+
+.googlework{
+  text-align: center;
+  
+}
+
+.logo{
+  
+  margin: 5px 0px 5px 0px;
+  width: 300px;
+}
+
+.searchbox{
+  
+  width: 600px;
+  padding: 10px 0px 10px 13px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(72, 72, 72);
+  border-radius: 300px;
+  border-style: solid;
+  border-width: 1px;
+  margin-left: 0px;
+  margin-bottom: 20px;
+}
+
+.searchbox:hover{
+  border: none;
+  box-shadow: 0px 0px 3px rgb(146, 146, 146);
+  border-width: 0px;
+  margin-bottom: 22px;
+}
+
+.searching {
+  
+  background-color: rgb(233, 233, 233);
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 15px;
+  border:none;
+  padding: 10px 20px 10px;
+}
+
+.feeling {
+  background-color: rgb(233, 233, 233);
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 15px;
+  border:none;
+  padding: 10px 20px 10px;
+}
+.same{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  width: 100px;
+  border-width: 1px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  margin: 8px 0px 0px;
+}
+
+.entermail{
+   display: block;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 15px;
+   width: 225px;
+   border-width: 1px;
+   border-radius: 10px;
+   border-style: solid;
+   border-color: blue;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 13px;
+   margin: 8px 0px 5px;
+}
+
+.enter{
+  background-color: rgb(65, 65, 255);
+  color: white;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px 94px 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.ridee{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.locate, .destiny{
+  display: block;
+  margin: 0px 0px 8px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  width: 250px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 10px;
+  color: black;
+  background-color: rgb(225, 225, 225) ;
+  border: none;
+}
+
+.destiny{
+  margin-bottom: 18px;
+}
+
+.requestnow{
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  padding: 10px  15px 10px;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 10px;
+}
+
+.later{
+  background-color: rgb(191, 191, 191);
+  color:black;
+  padding: 10px 15px 10px;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.divexp{
+  background-color: red;
+  height: 200px;
+  width: 200px;
+}
+
+.divexp2{
+  background-color: green;
+  height: 200px;
+  width: 200px;
+  border-radius: 200px;
+}
+
+.divexp3{
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(150, 150, 150);
+  width: 300px;
+  padding-left: 15px;
+  padding-bottom: 20px;
+}
+
+.satisfy{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.divexp4{
+  background-color: black;
+  border: none;
+  padding: 5px 15px 5px;
+  display: inline-block;
+  width: 370px;
+}
+
+
+.install{
+  font-weight: 500;
+  font-size: 21px;
+  color: white;
+}
+
+.add{
+  color: white;
+}
+
+
+.pfpcard{
+width: 180px;
+border: none;
+
+box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.43);
+margin-right: 14px;
+}
+.cat1{
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  margin-bottom: 6px;
+}
+.logonfrnds{
+  margin-bottom: 8px;
+}
+.dogpup{
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
+  border-radius: 30px;
+  vertical-align: middle;
+}
+
+.pfplogo{
+ 
+  vertical-align: middle;
+  margin-right: 3px;
+  
+}
+.mutualfrnds{
+ 
+  color: rgb(96, 96, 96);
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+.pfpname{
+  font-family: arial;
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.addfrnd{
+  background-color: rgb(85, 85, 255);
+  color: white;
+  padding: 8px 16px 9px;
+  border: none;
+  border-radius: 3px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.pfpdescrp{
+  margin-left: 5px;
+}

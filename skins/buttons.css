@@ -1,0 +1,413 @@
+button {
+  cursor: pointer;
+  vertical-align:top;
+  margin-right: 12px;
+}
+.aot {
+background-color: black;
+color:red;
+border-radius: 0px;
+height:auto;
+width: auto;
+border: solid;
+}
+
+.subs {
+background-color:rgb(204, 0, 0) ;
+border: none;
+color:white;
+padding-right: 16px;
+padding-left: 16px;
+padding-top: 10px;
+padding-bottom: 10px;
+font-family: Arial;
+font-size: 14px;
+margin-right: 10px;
+line-height: normal;
+border-radius: 2px;
+transition:opacity 0.20s;
+}
+
+.subs:hover{
+opacity:0.7;
+}
+.subs:active{
+opacity:0.4;
+}
+.ey{
+background-color: grey;
+color: black;
+height: 50px;
+width: 180px;
+font-weight: bold;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: large;
+border-radius: 23px;
+border-style: ridge;
+border:solid;
+border-width: 10px;
+border-top: none;
+border-bottom: none;
+border-color: black;
+margin-left: 10px;
+}
+.ma {
+background-color: orange;
+color: black;
+font-weight:normal;
+font-family:'Times New Roman', Times, serif;
+font-size:large;
+height: 45px;
+width: 180px;
+border-style: ridge;
+border-radius: 25px;
+border-width: 20px;
+border: solid;
+border-top: none;
+border-bottom: none ;
+}
+.tuf {
+font-size: xx-large;
+font-weight: bold;
+font-style:initial;
+color: rgb(255, 0, 0);
+}
+
+.money{
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ color: green;
+ font-style: italic;
+ font-size: large;
+}
+.text {
+font-style: italic;
+color:red;
+font-weight: bold;
+font-size:small ;
+}
+.bn  {
+background-color: yellow;
+color: black;
+font-weight:normal;
+font-family:Arial, Helvetica, sans-serif;
+font-size: medium;
+height: 30px;
+width: 135px;
+border-radius: 15px;
+border: none;
+margin-right: -15px;
+border-left: solid ;
+border-right: solid ;
+transition: opacity 0.20s;
+}
+
+.bn:hover{
+opacity: 0.7;
+}
+.bn:active{
+opacity: 0.4;
+}
+.atc {
+background-color: rgb(255, 216, 20);
+color: black;
+font-size:medium;
+height: 30px;
+width: 180px;
+border-radius: 15px;
+border: none  ;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 500;
+border-left: dashed ;
+border-right: dashed ;
+transition: background-color 0.15s, opacity 0.15s;
+}
+
+.atc:hover {
+background-color:rgb(223, 187, 8);
+}
+
+.atc:active{
+opacity: 0.5;
+}
+
+.joinbutton {
+background-color: white;
+color:blue;
+border-color: rgb(10, 10, 165);
+border-radius: 4px;
+border-width:1px;
+cursor: pointer;
+border-style: solid;
+margin-right: 10px;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 9px;
+padding-bottom: 9px;
+vertical-align:top;
+font-family: Arial, Helvetica, sans-serif;
+transition: background-color 0.20s, color 0.20s, opacity 0.15s ;
+}
+.joinbutton:hover{
+ background-color:rgb(10, 10, 165);
+ color:white;
+}
+
+.joinbutton:active{
+opacity: 0.6 ;
+}
+.tweety {
+  background-color: rgb(29, 155, 240);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding-top: 9px;
+  padding-bottom: 8px;
+  padding-right: 16px;
+  padding-left: 16px;
+  cursor:pointer;
+  font-size: 15px;
+  font-weight: bold;
+  vertical-align:top;
+  margin-right: 10px;
+  transition: box-shadow 0.20s, background-color 0.20s;
+}
+
+.tweety:hover{
+  background-color: rgb(0, 117, 226) ;
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.4 );
+}
+
+.tweety:active{
+  background-color:rgb(0, 99, 192) ;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.8 );
+}
+.req {
+  background-color: black;
+  color: white;
+  height: 36px;
+  width:  125px;
+  border: 2px;
+  font-weight: 600;
+  font-family:Arial, Helvetica, sans-serif;
+  margin-right: 10px;
+  transition: opacity 0.20s, box-shadow 0.05s;
+              
+}
+.req:hover {
+  opacity: 0.8;
+    
+}
+    .req:active {
+      opacity: 0.6;
+      box-shadow: 0px 3px 3px rgb(255, 0, 0);
+     }
+
+    .github {
+  background-color: rgb(46, 164, 79);
+  color: white;
+  height: 36px ;
+  width: 102px ;
+  border: none;
+  border-radius: 6px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size:medium;
+  margin-right: 10px;
+  transition: background-color 0.15s, box-shadow 0.15s;
+}
+
+.github:hover{
+  background-color: rgb(28, 141, 60);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5 );
+}
+
+.github:active{
+  background-color: rgb(22, 117, 49);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5 ) ;
+}
+.btgs {
+  background-color: rgb(121, 82, 179);
+  color: white;
+  border: none;
+  height: 40px;
+  width:113px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:bolder;
+  border-radius: 4px;
+  margin-right: 10px;
+  transition: background-color 0.20s;
+}
+
+.btgs:hover{
+  background-color:rgb(101, 65, 156);
+}
+.btd {
+  background-color: white;
+  color: grey;
+  height: 40px;
+  width: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  border-color: grey;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  margin-right: 10px;
+  transition: background-color 0.20s, color 0.20s;
+}
+
+.btd:hover{
+  background-color: grey;
+  color:white;
+}
+.lnk {
+  background-color: rgb(0, 112, 224);
+  color: white;
+  height: 45px;
+  width: 300px;
+  font-weight:bold;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  border:none;
+  border-radius: 22px;
+  margin-right: 10px;
+  transition: background-color 0.20s;
+  
+}
+
+.lnk:hover{
+  background-color: rgb(1, 76, 150);
+}
+
+.lnk:active{
+  background-color:rgb(1, 56, 112) ;
+}
+.lnks {
+  background-color: white;
+  color: rgb(10,102,194);
+  border-style: solid;
+  border-color: rgb(10,102,194);
+  border-width: 1px;
+  border-radius: 22px;
+  height: 45px;
+  width: 100px;
+  font-weight:normal;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 10px;
+  transition: background-color 0.20s, border-width 0.20s;
+  }
+
+  .lnks:hover{
+    background-color:rgb(168, 210, 252);
+    border-width: 2px;
+  }
+  .oned {
+     background-color: black;
+     color: red;
+     border: solid;
+     border-radius: 100px;
+     border-left: red;
+     border-right: red;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     font-size: xx-large;
+     font-weight: bolder;
+     font-style: italic;
+     height: 100px;
+     width: 200px;
+  }
+  .bta{
+    transition: color 0.30s;
+  }
+  .bta:hover{
+    color:rgb(200, 0, 0);
+  }
+  .back {
+    padding-left:5px ;
+    padding-right:5px ;
+    padding-top:10px ;
+    padding-bottom:10px ;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: middle;
+    margin-right: 8px;
+   }          
+   .next {
+    padding-left:5px ;
+    padding-right:5px ;
+    padding-top:10px ;
+    padding-bottom:10px ;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: middle;
+    transition: margin-top 0.15s, margin-left 0.15s ;
+      }
+      .next:active{
+        margin-top: 3px; 
+        margin-left: 3px;
+      }
+
+  .pages{
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+
+  .strch{
+    background-color: green;
+    color:white;
+    border:none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: padding-left 0.40s,  padding-right 0.40s, padding-top 0.40s, padding-bottom 0.40s;
+  }
+
+  .strch:hover{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .shdw{
+    background-color: green;
+    color:white;
+    border:none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: box-shadow 0.15s, margin-top 0.15s, margin-left 0.15s;
+  }
+
+  .shdw:hover{
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+  }
+ 
+  .shdw:active {
+    margin-top: 3px; 
+    margin-left: 3px;
+    box-shadow:none;
+  }
+
+  .nums{
+    background-color: green;
+    color: white;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: padding-left 0.15s, padding-right 0.15s, box-shadow 0.15s, margin-top 0.15s, margin-left 0.15s;
+  }
+
+  .nums:hover{
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 2px 2px 2px rgba(0, 255, 0, 0.749);
+  }
+  
+  .nums:active{
+   margin-top: 2px;
+   margin-left: 2px;  
+   box-shadow: none;
+  }

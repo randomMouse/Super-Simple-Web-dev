@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="">  
+<title>Profile-Card</title>
+
+<style>
+ 
+ *{
+  font-family: Poppins;
+ }
+ 
+ body{
+  background-color: rgb(231, 231, 231);
+ 
+ }
+
+ .profile-card-container{
+  width: 280px;
+  height: 330px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.541);
+  border-radius: 20px;
+  border-style: none;
+  margin: 100px; 
+ }
+
+ .profile-header{
+ height: 100px;
+ background-color: rgb(62, 62, 255);
+ border-top-left-radius: 20px;
+ border-top-right-radius: 20px;
+ display: flex;
+ justify-content: center;
+ align-items: end;
+ position: relative;
+ }
+
+ .profile-header img{
+  width: 95px;
+  border-radius: 50%;
+  border: 2px solid white;
+  position: absolute;
+  top: 16px;
+ }
+
+ #profile-body{
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: white;
+ }
+
+ .profile-name{
+  font-weight: 500;
+  margin-top: 20px;
+  font-size: 18px;
+ }
+
+ .profile-occupation{
+  color: rgb(109, 109, 109);
+  font-size: 13px;
+ }
+
+ .profile-social-media{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 145px;
+  height: 30px;
+  margin-top: 10px;
+ }
+
+ .profile-social-media img{
+  height: 15px;
+ }
+
+ #facebook-icon{
+  background-color: rgb(5, 74, 165);
+  padding: 5px 9px 5px;
+  border-radius: 50%;
+  width: 8px;
+ }
+
+ #twitter-icon{
+  background-color: rgb(24, 119, 242);
+  padding: 5px 6px 5px ;
+  border-radius: 50%;
+  
+ }
+
+ #instagram-icon{
+  background-color: rgb(224, 7, 43);
+  padding: 5px 6px 5px;
+  border-radius: 50%;
+ }
+
+ #youtube-icon{
+  background-color: red;
+  padding: 5px 4px 5px;
+  border-radius: 50%;
+ }
+
+.profile-interaction{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 25px;
+  width: 200px;
+}
+
+.profile-interaction button{
+  background-color: rgb(62, 62, 255);
+  color: white;
+  border: none;
+  border-radius: 15px;
+  font-size: 12px;
+  padding: 5px 17px 5px;
+}
+
+.profile-status{
+  display: flex;
+  flex-direction: row;
+  width: 190px;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.profile-status img{
+  height: 13px;
+  margin-right: 5px;
+}
+
+.profile-status div div{
+  font-size: 13px;
+}
+</style>
+
+</head>
+
+<body>
+
+  <div class="profile-card-container">
+    
+    <div class="profile-header">
+      <img src="Project- images/Profile-picture.jpeg" alt="Profile-picture" >
+    </div>
+
+    <div id="profile-body">
+
+      <div class="profile-name"> CodingLab </div>
+      <div class="profile-occupation"> YouTuber and Blogger </div>
+
+      <div class="profile-social-media">
+
+        <img src="Project- icons/facebook-f.svg" alt="Facebook" id="facebook-icon">
+        <img src="Project- icons/twitter.svg" alt="Twitter" id="twitter-icon">
+        <img src="Project- icons/instagram.svg" alt="Instagram" id="instagram-icon">
+        <img src="Project- icons/youtube.svg" alt="YouTube" id="youtube-icon">
+
+      </div>
+      
+      <div class="profile-interaction">
+        
+        <button> Subscribe </button>
+        <button> Message </button>
+      
+      </div>
+      
+      <div class="profile-status">
+        
+       <div style="display: flex; flex-direction: row; align-items: center; ">
+        <img src="Project- icons/heart-regular.svg" alt="">
+        <div>60k</div>
+       </div>  <!--try span on 60k--> 
+       
+       <span style="color: rgb(167, 167, 167);">|</span>
+       
+       <div style="display: flex; flex-direction: row; align-items: center; ">
+        <img src="Project- icons/comment-regular.svg" alt="">
+        <div>20k</div>
+       </div>  <!--try span on 60k--> 
+       
+       <span style="color: rgb(167, 167, 167);">|</span>
+       
+       <div style="display: flex; flex-direction: row; align-items: center; ">
+        <img src="Project- icons/share-solid.svg" alt="">
+        <div>12k</div>
+       </div>  <!--try span on 60k--> 
+        
+     </div>
+    </div>
+   </div>
+</body>
+</html>
